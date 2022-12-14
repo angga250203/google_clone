@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/outline";
-import Avatar from "./Avatar";
+import Avatar from "./avatar";
 import HeaderOptions from "./HeaderOptions";
 
 function Header() {

@@ -1,5 +1,5 @@
 import PaginationButtons from "./PaginationButtons";
-import Footer from "./Footer";
+import Footer from "./footer";
 function SearchResults({ results }) {
   return (
     <div>
