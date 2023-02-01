@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Response from '../Response';
-import Header from './components/Header';
-import SearchResults from './components/SearchResults';
+import Header from '../components/Header';
+import SearchResults from '../components/SearchResults';
 
 function Search({ results }) {
   const router = useRouter();

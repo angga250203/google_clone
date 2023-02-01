@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import { ViewGridIcon } from "@heroicons/react/solid";
-import Avatar from './components/avatar';
+import Avatar from '../components/avatar';
 import { SearchIcon, MicrophoneIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import { useRef } from "react";
 import { useRouter } from "next/router";
-import Footer from './components/footer';
+import Footer from '../components/footer';
 
 export default function Home() {
   const router = useRouter();
